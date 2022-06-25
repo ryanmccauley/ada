@@ -76,23 +76,23 @@
 		</div>
 		<div class="flex flex-col gap-2">
 			<h4 class="font-bold text-2xl font-serif">Our Team</h4>
-			<div class="grid grid-cols-3 gap-8">
+			<div class="grid grid-cols-1 md:grid-cols-3 justify-center gap-8">
 				<div class="flex flex-col gap-2">
-					<img src="/Cyrus.jpg" class="w-full h-[400px]" />
+					<img src="/Cyrus.jpg" class="w-full max-h-[400px] sm:h-[400px]" />
 					<div class="flex justify-between w-full items-center">
 						<h5 class="font-medium text-lg">Cyrus Nadizadeh</h5>
 						<a href="mailto:cyrusnadi@gmail.com" class="text-sky-700 underline underline-offset-4">cyrusnadi@gmail.com</a>
 					</div>
 				</div>
 				<div class="flex flex-col gap-2">
-					<img src="/Shilpa.jpg" class="w-full h-[400px]" />
+					<img src="/Shilpa.jpg" class="w-full max-h-[400px] sm:h-[400px]" />
 					<div class="flex justify-between w-full items-center">
 						<h5 class="font-medium text-lg">Shilpa Shiju</h5>
 						<a href="mailto:shilpamshiju@gmail.com" class="text-sky-700 underline underline-offset-4">shilpamshiju@gmail.com</a>
 					</div>
 				</div>
 				<div class="flex flex-col gap-2">
-					<img src="/Ryan.jpeg" class="w-full h-[400px]" />
+					<img src="/Ryan.jpeg" class="w-full max-h-[400px] sm:h-[400px]" />
 					<div class="flex justify-between w-full items-center">
 						<h5 class="font-medium text-lg">Ryan McCauley</h5>
 						<a href="mailto:ryanmcly@gmail.com" class="text-sky-700 underline underline-offset-4">ryanmcly@gmail.com</a>
