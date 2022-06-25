@@ -29,9 +29,35 @@
 				{/each}
 			</Swiper>
 		</div>-->
-		<div class="flex flex-col gap-2">
+		<div class="flex flex-col gap-4">
 			<h4 class="font-bold text-2xl underline underline-offset-4 font-serif">Mission Statement</h4>
 			<p>Lorem isplum blah blah</p>
+		</div>
+		<div class="flex flex-col gap-4">
+			<h4 class="font-bold text-2xl underline underline-offset-4 font-serif">Our Team</h4>
+			<div class="grid grid-cols-3 gap-8">
+				<div class="flex flex-col gap-2">
+					<img src="/Cyrus.jpg" class="w-full h-[400px]" />
+					<div class="flex justify-between w-full items-center">
+						<h5 class="font-medium text-xl">Cyrus Nadizadeh</h5>
+						<a href="mailto:cyrusnadi@gmail.com" class="text-sky-700 underline underline-offset-4">cyrusnadi@gmail.com</a>
+					</div>
+				</div>
+				<div class="flex flex-col gap-2">
+					<img src="/Shilpa.jpg" class="w-full h-[400px]" />
+					<div class="flex justify-between w-full items-center">
+						<h5 class="font-medium text-xl">Shilpa Shiju</h5>
+						<a href="mailto:shilpamshiju@gmail.com" class="text-sky-700 underline underline-offset-4">shilpamshiju@gmail.com</a>
+					</div>
+				</div>
+				<div class="flex flex-col gap-2">
+					<img src="/Ryan.jpeg" class="w-full h-[400px]" />
+					<div class="flex justify-between w-full items-center">
+						<h5 class="font-medium text-xl">Ryan McCauley</h5>
+						<a href="mailto:ryanmcly@gmail.com" class="text-sky-700 underline underline-offset-4">ryanmcly@gmail.com</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
